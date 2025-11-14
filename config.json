@@ -1,0 +1,23 @@
+{
+  "netezza": {
+    "server": "netezza-prod.empresa.com",
+    "database": "DWH_PROD",
+    "username": "usuario_migracion",
+    "password": "tu_password_aqui",
+    "port": 5480
+  },
+  "bigquery": {
+    "project_id": "proyecto-bigquery-prod"
+  },
+  "azure_openai": {
+    "endpoint": "https://tu-recurso.openai.azure.com/",
+    "api_key": "tu_api_key_de_azure_openai",
+    "api_version": "2024-02-15-preview",
+    "deployment_name": "gpt-4"
+  },
+  "validation": {
+    "tolerance_percent": 0.5,
+    "max_rows_comparison": 10000,
+    "retry_attempts": 3
+  }
+}
